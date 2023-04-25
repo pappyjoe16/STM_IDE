@@ -232,24 +232,6 @@ void StartTask_2(void const * argument)
   {
 	printf("Task2, indx = %d\n", indx++);
     osDelay(2000);
-/*
-    if (indx == 4){
-    	printf("Default Task Suspended... \n");
-    	osThreadSuspend(defaultTaskHandle);
-    }
-    if (indx == 8){
-        printf("Default Task Resume... \n");
-        osThreadResume(defaultTaskHandle);
-    }
-    if (indx == 12){
-    	uint32_t PreviousWakeTime = osKernelSysTick();
-        printf("Task 2 sleeping for 6 seconds... \n");
-        osDelayUntil(&PreviousWakeTime, 6000);
-    }
-    if (indx == 12){
-      	printf("Task 2 Terminated... \n");
-      	osThreadTerminate(Task2Handle);
-    }*/
   }
   /* USER CODE END 5 */
 }

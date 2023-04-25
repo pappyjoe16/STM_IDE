@@ -40,9 +40,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-//Define task handler
 osThreadId defaultTaskHandle;
-osThreadId Task2Handle;
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -50,9 +48,7 @@ osThreadId Task2Handle;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-// Define task entry point
 void StartDefaultTask(void const * argument);
-void StartTask_2(void const * argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -68,7 +64,6 @@ int _write(int file, char *ptr, int len)
 	return len;
 }
 
-uint8_t indx = 0;
 /* USER CODE END 0 */
 
 /**
@@ -125,9 +120,6 @@ int main(void)
   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
-  /* definition and creation of defaultTask */
-  osThreadDef(Task_2, StartTask_2, osPriorityAboveNormal, 0, 128);
-  Task2Handle = osThreadCreate(osThread(Task_2), NULL);
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
@@ -224,35 +216,6 @@ void StartDefaultTask(void const * argument)
   /* USER CODE END 5 */
 }
 
-void StartTask_2(void const * argument)
-{
-  /* USER CODE BEGIN 5 */
-  /* Infinite loop */
-  for(;;)
-  {
-	printf("Task2, indx = %d\n", indx++);
-    osDelay(2000);
-/*
-    if (indx == 4){
-    	printf("Default Task Suspended... \n");
-    	osThreadSuspend(defaultTaskHandle);
-    }
-    if (indx == 8){
-        printf("Default Task Resume... \n");
-        osThreadResume(defaultTaskHandle);
-    }
-    if (indx == 12){
-    	uint32_t PreviousWakeTime = osKernelSysTick();
-        printf("Task 2 sleeping for 6 seconds... \n");
-        osDelayUntil(&PreviousWakeTime, 6000);
-    }
-    if (indx == 12){
-      	printf("Task 2 Terminated... \n");
-      	osThreadTerminate(Task2Handle);
-    }*/
-  }
-  /* USER CODE END 5 */
-}
 /**
   * @brief  Period elapsed callback in non blocking mode
   * @note   This function is called  when TIM1 interrupt took place, inside
