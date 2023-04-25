@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -62,24 +62,36 @@ void Task3_init(void const * argument);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+int _write(int file, char *ptr, int len)
+{
+	int i=0;
+	for (i=0; i<len; i++)
+		ITM_SendChar((*ptr++));
+	return len;
+}
 
 void send_deftask(void)
 {
 	uint8_t data[] = "Hello from Default Task \n";
-	HAL_UART_Transmit(&huart1, data, sizeof(data), 500);
+	printf(data);
+	//HAL_UART_Transmit(&huart1, data, sizeof(data), 500);
 }
 
 void send_task2(void)
 {
 	uint8_t data[] = "Hello from Task 2 \n";
-	HAL_UART_Transmit(&huart1, data, sizeof(data), 500);
+	printf(data);
+	//HAL_UART_Transmit(&huart1, data, sizeof(data), 500);
 }
 
 void send_task3(void)
 {
 	uint8_t data[] = "Hello from Task 3 \n";
-	HAL_UART_Transmit(&huart1, data, sizeof(data), 500);
+	printf(data);
+	//HAL_UART_Transmit(&huart1, data, sizeof(data), 500);
 }
+
+
 
 /* USER CODE END 0 */
 
@@ -143,7 +155,6 @@ int main(void)
 
   osThreadDef(Task3, Task3_init, osPriorityBelowNormal, 0, 128);
   Task3Handle = osThreadCreate(osThread(Task3), NULL);
-
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
