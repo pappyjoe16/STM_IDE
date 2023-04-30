@@ -1,0 +1,809 @@
+2023-04-26 01:41:00,612 [INFO] Activator:179 - 
+
+
+2023-04-26 01:41:00,615 [INFO] Activator:180 - !SESSION log4j initialized
+2023-04-26 01:41:27,471 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-26 01:41:27,473 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-26 01:41:27,477 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-04-26 01:43:32,780 [INFO] McuFinderGlobals:52 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-04-26 01:43:33,414 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-04-26 01:43:33,434 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-04-26 01:43:33,434 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-04-26 01:43:33,436 [WARN] ApiDb:258 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-04-26 01:43:33,460 [INFO] ApiDb:249 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/
+2023-04-26 01:43:33,462 [INFO] DbMcusAds:124 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/
+2023-04-26 01:43:33,529 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-04-26 01:43:33,707 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-04-26 01:43:33,865 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-04-26 01:43:33,866 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-04-26 01:43:33,866 [INFO] ApiDb:260 - Set plugin images path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-04-26 01:43:33,866 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:33,866 [INFO] ApiDb:249 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/
+2023-04-26 01:43:33,867 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:33,867 [INFO] DbMcusAds:124 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/
+2023-04-26 01:43:33,868 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:33,868 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:33,868 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-04-26 01:43:34,008 [INFO] MainPanel:252 - HeapMemory: 406847488
+2023-04-26 01:43:34,443 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-04-26 01:43:34,444 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-04-26 01:43:34,444 [INFO] ApiDb:260 - Set plugin images path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-04-26 01:43:34,445 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:34,445 [INFO] ApiDb:249 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/
+2023-04-26 01:43:34,445 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:34,446 [INFO] DbMcusAds:124 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/
+2023-04-26 01:43:34,446 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:34,446 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:34,446 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\XPS\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-04-26 01:43:34,483 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-04-26 01:43:34,485 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-04-26 01:43:34,486 [INFO] PluginManage:307 - Check plugin analytics
+2023-04-26 01:43:34,693 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: 
+2023-04-26 01:43:34,696 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-04-26 01:43:34,697 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: 
+2023-04-26 01:43:34,715 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-04-26 01:43:34,715 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-04-26 01:43:34,735 [INFO] CADModel:104 - Init CAD model plugin
+2023-04-26 01:43:34,736 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-04-26 01:43:34,738 [INFO] PluginManage:307 - Check plugin clock
+2023-04-26 01:43:34,760 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-04-26 01:43:34,760 [INFO] PluginManage:307 - Check plugin ddr
+2023-04-26 01:43:34,764 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-04-26 01:43:34,764 [INFO] PluginManage:307 - Check plugin filemanager
+2023-04-26 01:43:34,973 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-04-26 01:43:34,973 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-04-26 01:43:34,990 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-04-26 01:43:34,990 [INFO] PluginManage:307 - Check plugin lpbam
+2023-04-26 01:43:35,009 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-04-26 01:43:35,009 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-04-26 01:43:35,030 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-04-26 01:43:35,030 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-04-26 01:43:35,084 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-04-26 01:43:35,084 [INFO] PluginManage:307 - Check plugin power
+2023-04-26 01:43:35,107 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-04-26 01:43:35,108 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-04-26 01:43:35,134 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-04-26 01:43:35,134 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-04-26 01:43:35,432 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-04-26 01:43:35,432 [INFO] PluginManage:307 - Check plugin tools
+2023-04-26 01:43:35,433 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-04-26 01:43:35,434 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-04-26 01:43:35,436 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-04-26 01:43:35,460 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-04-26 01:43:35,460 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-04-26 01:43:35,824 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-04-26 01:43:35,825 [INFO] PluginManage:307 - Check plugin updater
+2023-04-26 01:43:35,843 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-04-26 01:43:35,844 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-04-26 01:43:36,214 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-04-26 01:43:36,297 [INFO] CADModel:164 - CPN selected for project level
+2023-04-26 01:43:36,297 [INFO] CADModel:113 - Register for checkConnection events
+2023-04-26 01:43:36,348 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,348 [INFO] PluginManager:219 - loadIPPluginJar : add adc
+2023-04-26 01:43:36,406 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,406 [INFO] PluginManager:219 - loadIPPluginJar : add aes
+2023-04-26 01:43:36,468 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,468 [INFO] PluginManager:219 - loadIPPluginJar : add can
+2023-04-26 01:43:36,499 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,500 [INFO] PluginManager:219 - loadIPPluginJar : add comp
+2023-04-26 01:43:36,562 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,562 [INFO] PluginManager:219 - loadIPPluginJar : add cryp
+2023-04-26 01:43:36,611 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,612 [INFO] PluginManager:219 - loadIPPluginJar : add dfsdm
+2023-04-26 01:43:36,640 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,641 [INFO] PluginManager:219 - loadIPPluginJar : add dma
+2023-04-26 01:43:36,694 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,694 [INFO] PluginManager:219 - loadIPPluginJar : add dma3
+2023-04-26 01:43:36,724 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,725 [INFO] PluginManager:219 - loadIPPluginJar : add fatfs
+2023-04-26 01:43:36,771 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,772 [INFO] PluginManager:219 - loadIPPluginJar : add fmc
+2023-04-26 01:43:36,788 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,789 [INFO] PluginManager:219 - loadIPPluginJar : add freertos
+2023-04-26 01:43:36,815 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,815 [INFO] PluginManager:219 - loadIPPluginJar : add genericplugin
+2023-04-26 01:43:36,914 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:36,915 [INFO] PluginManager:219 - loadIPPluginJar : add gfxmmu
+2023-04-26 01:43:37,058 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,059 [INFO] PluginManager:219 - loadIPPluginJar : add gic
+2023-04-26 01:43:37,089 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,090 [INFO] PluginManager:219 - loadIPPluginJar : add gpio
+2023-04-26 01:43:37,194 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,194 [INFO] PluginManager:219 - loadIPPluginJar : add gtzc
+2023-04-26 01:43:37,251 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,251 [INFO] PluginManager:219 - loadIPPluginJar : add hash
+2023-04-26 01:43:37,305 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,305 [INFO] PluginManager:219 - loadIPPluginJar : add i2c
+2023-04-26 01:43:37,339 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,339 [INFO] PluginManager:219 - loadIPPluginJar : add i2s
+2023-04-26 01:43:37,458 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,458 [INFO] PluginManager:219 - loadIPPluginJar : add ipddr
+2023-04-26 01:43:37,552 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,552 [INFO] PluginManager:219 - loadIPPluginJar : add linkedlist
+2023-04-26 01:43:37,585 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,585 [INFO] PluginManager:219 - loadIPPluginJar : add lorawan
+2023-04-26 01:43:37,621 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,621 [INFO] PluginManager:219 - loadIPPluginJar : add ltdc
+2023-04-26 01:43:37,639 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,639 [INFO] PluginManager:219 - loadIPPluginJar : add mdma
+2023-04-26 01:43:37,659 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,659 [INFO] PluginManager:219 - loadIPPluginJar : add nvic
+2023-04-26 01:43:37,709 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,709 [INFO] PluginManager:219 - loadIPPluginJar : add opamp
+2023-04-26 01:43:37,769 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,770 [INFO] PluginManager:219 - loadIPPluginJar : add openamp
+2023-04-26 01:43:37,818 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,819 [INFO] PluginManager:219 - loadIPPluginJar : add pdm2pcm
+2023-04-26 01:43:37,844 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,850 [INFO] PluginManager:219 - loadIPPluginJar : add plateformsettings
+2023-04-26 01:43:37,890 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,891 [INFO] PluginManager:219 - loadIPPluginJar : add quadspi
+2023-04-26 01:43:37,916 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,917 [INFO] PluginManager:219 - loadIPPluginJar : add resmgrutility
+2023-04-26 01:43:37,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:37,974 [INFO] PluginManager:219 - loadIPPluginJar : add sai
+2023-04-26 01:43:38,012 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,013 [INFO] PluginManager:219 - loadIPPluginJar : add spi
+2023-04-26 01:43:38,072 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,072 [INFO] PluginManager:219 - loadIPPluginJar : add stm32_wpan
+2023-04-26 01:43:38,119 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,119 [INFO] PluginManager:219 - loadIPPluginJar : add tim
+2023-04-26 01:43:38,196 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,196 [INFO] PluginManager:219 - loadIPPluginJar : add touchsensing
+2023-04-26 01:43:38,227 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,227 [INFO] PluginManager:219 - loadIPPluginJar : add tracer_emb
+2023-04-26 01:43:38,255 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,255 [INFO] PluginManager:219 - loadIPPluginJar : add ts
+2023-04-26 01:43:38,294 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,294 [INFO] PluginManager:219 - loadIPPluginJar : add tsc
+2023-04-26 01:43:38,330 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,330 [INFO] PluginManager:219 - loadIPPluginJar : add ucpd
+2023-04-26 01:43:38,392 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,393 [INFO] PluginManager:219 - loadIPPluginJar : add usart
+2023-04-26 01:43:38,445 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:43:38,445 [INFO] PluginManager:219 - loadIPPluginJar : add usbx
+2023-04-26 01:43:38,451 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2023-04-26 01:43:38,605 [INFO] CADModel:164 - CPN selected for project level
+2023-04-26 01:43:38,605 [INFO] CADModel:113 - Register for checkConnection events
+2023-04-26 01:43:38,605 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:38,607 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-04-26 01:43:38,982 [INFO] CADModel:164 - CPN selected for project level
+2023-04-26 01:43:38,982 [INFO] CADModel:113 - Register for checkConnection events
+2023-04-26 01:43:38,982 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:38,983 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-04-26 01:43:38,989 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:39,268 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:39,293 [INFO] DbMcusAds:52 - JSON generation date=Tue Mar 07 09:50:55 CET 2023 (1678179055335)
+2023-04-26 01:43:39,295 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:39,397 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-04-26 01:43:39,526 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:39,529 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:39,529 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:39,529 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-04-26 01:43:39,529 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-26 01:43:39,699 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-04-26 01:43:39,711 [INFO] Updater:1056 - Updater Version found : 6.7.0
+2023-04-26 01:43:39,731 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-04-26 01:43:40,456 [INFO] MainUpdater:2800 - connection check result : 10
+2023-04-26 01:43:40,457 [INFO] MainUpdater:282 - Updater Check For Update Now.
+2023-04-26 01:43:40,458 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-04-26 01:43:40,758 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-04-26 01:43:40,941 [INFO] MainUpdater:2800 - connection check result : 10
+2023-04-26 01:43:40,985 [INFO] McuFinderGlobals:65 - Set McuFinderConnectedMode to true
+2023-04-26 01:43:41,463 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-04-26 01:43:41,464 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [1/15]
+2023-04-26 01:43:41,653 [INFO] ServerAccessManage:474 - Download File mcusAds.json._tmp_
+2023-04-26 01:43:41,849 [INFO] LoadUrlFilesThread:150 - End of LoadUrlFiles Thread
+2023-04-26 01:43:41,995 [INFO] ServerAccessManage:474 - Download File cube-finder-db.zip
+2023-04-26 01:43:44,473 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-04-26 01:43:44,474 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [2/15]
+2023-04-26 01:43:45,335 [INFO] FileExtend:239 - Unzip File : cube-finder-db.zip
+2023-04-26 01:43:45,337 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-04-26 01:43:46,210 [INFO] LoadUrlFilesThread:150 - End of LoadUrlFiles Thread
+2023-04-26 01:43:46,546 [INFO] ServerAccessManage:474 - Download File crdb.zip
+2023-04-26 01:43:46,774 [INFO] FileExtend:239 - Unzip File : crdb.zip
+2023-04-26 01:43:46,774 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-04-26 01:43:46,920 [INFO] LoadUrlFilesThread:150 - End of LoadUrlFiles Thread
+2023-04-26 01:43:47,045 [INFO] ServerAccessManage:474 - Download File tutoVideoDB.zip
+2023-04-26 01:43:47,049 [INFO] FileExtend:239 - Unzip File : tutoVideoDB.zip
+2023-04-26 01:43:47,049 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-04-26 01:43:47,168 [INFO] LoadUrlFilesThread:150 - End of LoadUrlFiles Thread
+2023-04-26 01:43:47,183 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-04-26 01:43:47,688 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-04-26 01:43:47,743 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-04-26 01:43:47,786 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2023-04-26 01:43:47,826 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-04-26 01:43:47,854 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-04-26 01:43:47,882 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-04-26 01:43:47,911 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2023-04-26 01:43:47,976 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-26 01:43:47,977 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-26 01:43:47,985 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2023-04-26 01:43:47,988 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-26 01:43:47,990 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-26 01:43:47,992 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-26 01:43:47,993 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-26 01:43:47,993 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-26 01:43:48,020 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-04-26 01:43:48,049 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.4
+2023-04-26 01:43:48,065 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-04-26 01:43:48,084 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-04-26 01:43:48,115 [WARN] PackLoader:242 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2023-04-26 01:43:48,134 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-04-26 01:43:48,153 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-04-26 01:43:48,183 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2023-04-26 01:43:48,251 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2023-04-26 01:43:48,283 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-04-26 01:43:48,311 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2023-04-26 01:43:48,329 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.0
+2023-04-26 01:43:48,344 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.0
+2023-04-26 01:43:48,358 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2023-04-26 01:43:48,373 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.1
+2023-04-26 01:43:48,385 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.3
+2023-04-26 01:43:48,396 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.3.0
+2023-04-26 01:43:48,411 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-04-26 01:43:48,439 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-04-26 01:43:48,483 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-04-26 01:43:48,510 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-04-26 01:43:48,532 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-04-26 01:43:48,560 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.0
+2023-04-26 01:43:48,585 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2023-04-26 01:43:48,604 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.3.0
+2023-04-26 01:43:48,636 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-04-26 01:43:48,651 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-04-26 01:43:48,690 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-04-26 01:43:48,722 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-04-26 01:43:48,739 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-04-26 01:43:48,755 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-04-26 01:43:48,845 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.5.0
+2023-04-26 01:43:49,083 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-04-26 01:43:49,123 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2023-04-26 01:43:49,175 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.2.0.0
+2023-04-26 01:43:49,175 [INFO] ThirdParty:947 - Integrity check success = true
+2023-04-26 01:43:49,175 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-04-26 01:43:49,177 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-04-26 01:43:52,321 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\XPS\.stmcufinder\plugins\mcufinder/ => C:\Users\XPS\.stmcufinder\plugins\mcufinder
+2023-04-26 01:43:52,693 [INFO] ServerAccessManage:474 - Download File api_config.json
+2023-04-26 01:43:52,824 [INFO] LoadUrlFilesThread:150 - End of LoadUrlFiles Thread
+2023-04-26 01:43:52,825 [INFO] DbMcusAds:52 - JSON generation date=Tue Mar 07 09:50:55 CET 2023 (1678179055335)
+2023-04-26 01:43:52,859 [INFO] LoadUrlFilesThread:179 - End of LoadServerUrlFiles without Thread
+2023-04-26 01:43:52,861 [INFO] TargetSelectorAdapter:258 - Refresh data is successful
+2023-04-26 01:43:53,030 [INFO] ApiDb:580 - Connected to CubeFinder SQLite database (C:\Users\XPS\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2023-04-26 01:43:53,090 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-04-26 01:43:53,090 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.35
+2023-04-26 01:43:53,090 [INFO] ApiDb:669 - CubeFinder database generation date=2023-03-10 (1678456172)
+2023-04-26 01:43:53,090 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.1, STM32Cube_FW_F0_V1.11.4, STM32Cube_FW_F3_V1.11.4, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.0.0, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.2.0, STM32Cube_FW_WBA_V1.0.0, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.0.0RC3, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V3.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V1.1.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.5.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-04-26 01:43:55,248 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2023-04-26 01:43:55,253 [INFO] DbMcus:215 - Found 3680 MCUs, 3680 are supported
+2023-04-26 01:43:55,262 [INFO] ApiDb:422 - Load user favorites file C:\Users\XPS/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2023-04-26 01:43:55,262 [INFO] ApiDb:426 - User favorites MCUs=[STM32F411RET6]
+2023-04-26 01:43:55,262 [INFO] DbMcus:221 - Set 1 / 1 favorites MCUs
+2023-04-26 01:43:55,646 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-04-26 01:43:55,647 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.35
+2023-04-26 01:43:55,647 [INFO] ApiDb:669 - CubeFinder database generation date=2023-03-10 (1678456172)
+2023-04-26 01:43:55,647 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.1, STM32Cube_FW_F0_V1.11.4, STM32Cube_FW_F3_V1.11.4, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.0.0, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.2.0, STM32Cube_FW_WBA_V1.0.0, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.0.0RC3, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V3.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V1.1.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.5.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-04-26 01:43:55,717 [INFO] DbBoardsSqlite:225 - include board P-NUCLEO-WB55-NUCLEO as a kit item of type 'Nucleo-64'
+2023-04-26 01:43:55,717 [INFO] DbBoardsSqlite:225 - include board P-NUCLEO-WB55-USBDONGLE as a kit item of type 'Nucleo USB Dongle'
+2023-04-26 01:43:55,718 [INFO] DbBoardsSqlite:225 - include board STEVAL-IDP005V1 as a kit item of type 'Evaluation Board'
+2023-04-26 01:43:55,718 [INFO] DbBoardsSqlite:225 - include board STEVAL-IDP005V2 as a kit item of type 'Evaluation Board'
+2023-04-26 01:43:55,768 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2023-04-26 01:43:55,941 [INFO] BoardInfo:879 - No configuration file found for board P-NUCLEO-WB55
+2023-04-26 01:43:55,941 [INFO] DbBoards:156 - Kit is not supported: P-NUCLEO-WB55
+2023-04-26 01:43:55,948 [INFO] BoardInfo:879 - No configuration file found for board STEVAL-BFA001V1B
+2023-04-26 01:43:55,948 [INFO] DbBoards:156 - Kit is not supported: STEVAL-BFA001V1B
+2023-04-26 01:43:55,950 [INFO] BoardInfo:879 - No configuration file found for board STEVAL-BFA001V2B
+2023-04-26 01:43:55,950 [INFO] DbBoards:156 - Kit is not supported: STEVAL-BFA001V2B
+2023-04-26 01:43:56,095 [INFO] DbBoards:160 - Found 179 boards, 176 are supported
+2023-04-26 01:43:56,107 [INFO] ApiDb:422 - Load user favorites file C:\Users\XPS/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2023-04-26 01:43:56,107 [INFO] ApiDb:426 - User favorites Boards=[NUCLEO-F411RE]
+2023-04-26 01:43:56,108 [INFO] DbBoards:189 - Set 1 / 1 favorites Boards
+2023-04-26 01:43:56,112 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-04-26 01:43:56,112 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.35
+2023-04-26 01:43:56,112 [INFO] ApiDb:669 - CubeFinder database generation date=2023-03-10 (1678456172)
+2023-04-26 01:43:56,112 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.1, STM32Cube_FW_F0_V1.11.4, STM32Cube_FW_F3_V1.11.4, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.0.0, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.2.0, STM32Cube_FW_WBA_V1.0.0, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.0.0RC3, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V3.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V1.1.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.5.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-04-26 01:43:57,218 [INFO] DbExamplesSqlite:375 - Ignored 46 examples not supported by CubeIDE
+2023-04-26 01:43:57,219 [INFO] DbExamplesSqlite:376 - Found 7328 examples active
+2023-04-26 01:43:57,219 [INFO] DbExamplesSqlite:377 - Found 1095 examples obsolete
+2023-04-26 01:43:57,219 [INFO] DbExamplesSqlite:378 - Found 0 examples under development
+2023-04-26 01:43:57,220 [INFO] DbExamplesSqlite:379 - Found 77 examples not building
+2023-04-26 01:43:57,221 [INFO] DbExamples:124 - Found 7359 examples
+2023-04-26 01:43:57,319 [ERROR] DbExamples:207 - Found 498 examples with invalid data (board or MCU)
+2023-04-26 01:43:57,320 [INFO] DbExamples:221 - Found 85 boards with related examples
+2023-04-26 01:43:57,321 [INFO] DbExamples:234 - Found 76 MCUs with related examples
+2023-04-26 01:43:57,342 [INFO] ApiDb:422 - Load user favorites file C:\Users\XPS/.stm32cubeide/favorites.examples.txt: 0 item(s)
+2023-04-26 01:43:57,342 [INFO] ApiDb:426 - User favorites Examples=[]
+2023-04-26 01:43:57,342 [INFO] DbExamples:249 - Set 0 / 0 favorites Examples
+2023-04-26 01:43:57,699 [INFO] McuFinderGlobals:65 - Set McuFinderConnectedMode to true
+2023-04-26 01:43:57,708 [INFO] MultiScanPanel:196 - Auto-refresh data requested => check proxy status ongoing
+2023-04-26 01:43:57,712 [INFO] FinderPluginLoader:92 - Searching for filters in installed packs
+2023-04-26 01:43:59,814 [INFO] LoadUrlFilesThread:179 - End of LoadServerUrlFiles without Thread
+2023-04-26 01:43:59,825 [INFO] DetailPanel:339 - Set advertising image to C:/Users/XPS/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-04-26 01:45:42,055 [INFO] MainUpdater:2800 - connection check result : 10
+2023-04-26 01:45:42,057 [INFO] MainUpdater:2800 - connection check result : 10
+2023-04-26 01:45:42,106 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-04-26 01:45:42,106 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-04-26 01:45:42,106 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-04-26 01:45:42,107 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-04-26 01:45:42,108 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-04-26 01:45:42,128 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-04-26 01:45:42,139 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 459644096 Bytes (567279616)
+2023-04-26 01:45:42,141 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-04-26 01:45:42,141 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-04-26 01:45:42,141 [INFO] OpenFileManager:307 - Change cursor
+2023-04-26 01:45:42,316 [INFO] Mcu:1925 - Initializing MCU STM32F411RETx STM32F411RETx 
+2023-04-26 01:45:42,317 [INFO] Mcu:1938 - No CPN specified => set CPN to STM32F411RET6
+2023-04-26 01:45:45,727 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-04-26 01:45:46,294 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2023-04-26 01:45:46,294 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2023-04-26 01:45:46,294 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2023-04-26 01:45:46,500 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-04-26 01:45:46,502 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-04-26 01:45:46,503 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-04-26 01:45:46,504 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-04-26 01:45:46,506 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-04-26 01:45:46,527 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,528 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,529 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,531 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,532 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,532 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,533 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,533 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,534 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,534 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,568 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,568 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,570 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,570 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,571 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,572 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,572 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,572 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,573 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,573 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,574 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,574 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,576 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,576 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,576 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,577 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,577 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,577 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,578 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,578 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,578 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,579 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,579 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,579 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,579 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,579 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,579 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,579 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,580 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,581 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,582 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,582 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,582 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-04-26 01:45:46,825 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,826 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,826 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,827 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,827 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,829 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,829 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,830 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,831 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,832 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,833 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,834 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-26 01:45:46,849 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-04-26 01:45:47,462 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-04-26 01:45:47,924 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 496178024 Bytes (567279616)
+2023-04-26 01:45:47,975 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-04-26 01:45:47,975 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-04-26 01:45:47,975 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-04-26 01:45:47,975 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-04-26 01:45:47,975 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-04-26 01:45:47,976 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-04-26 01:45:47,977 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-04-26 01:45:47,977 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-04-26 01:45:47,977 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-04-26 01:45:47,977 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-04-26 01:45:47,977 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-04-26 01:45:47,977 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-04-26 01:45:47,977 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-04-26 01:45:47,977 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-04-26 01:45:47,979 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-04-26 01:45:47,979 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-04-26 01:45:47,980 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-04-26 01:45:47,980 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-04-26 01:45:47,980 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-04-26 01:45:47,980 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-04-26 01:45:47,980 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-04-26 01:45:47,980 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-04-26 01:45:47,980 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-04-26 01:45:47,980 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-04-26 01:45:47,981 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-04-26 01:45:47,981 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-04-26 01:45:47,981 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-04-26 01:45:47,981 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-04-26 01:45:47,981 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-04-26 01:45:47,981 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-04-26 01:45:47,982 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-04-26 01:45:47,982 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-04-26 01:45:47,982 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-04-26 01:45:47,982 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-04-26 01:45:47,982 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-04-26 01:45:47,982 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-04-26 01:45:47,982 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-04-26 01:45:47,983 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-04-26 01:45:47,985 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-04-26 01:45:47,985 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-04-26 01:45:47,985 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-04-26 01:45:47,985 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-04-26 01:45:48,816 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-04-26 01:45:48,824 [INFO] PinOutPanel:1477 - setPackage(STM32F411RETx,LQFP64)
+2023-04-26 01:45:49,962 [INFO] UtilMem:74 - Before build in PCC Used Memory: 489628736 Bytes (567279616)
+2023-04-26 01:45:51,481 [INFO] UtilMem:74 - After build in PCC Used Memory: 483689096 Bytes (567279616)
+2023-04-26 01:45:51,513 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,514 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,515 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,515 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,517 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,517 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,517 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,518 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,518 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,519 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,521 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,521 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,522 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,524 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,524 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,527 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,529 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,530 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,533 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,535 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,537 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,538 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,540 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,543 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,544 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,555 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,556 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,557 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,558 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,559 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,560 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,560 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,561 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,562 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,563 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,564 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,565 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,566 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,566 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,567 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,567 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-04-26 01:45:51,728 [INFO] ApiDbMcu:505 - Load IP Config File for PDM2PCM
+2023-04-26 01:45:52,445 [INFO] CADModel:164 - CPN selected for project levelSTM32F411RET6
+2023-04-26 01:45:52,446 [INFO] CADModel:113 - Register for checkConnection events
+2023-04-26 01:45:52,522 [INFO] OpenFileManager:327 - Restore cursor
+2023-04-26 01:45:53,933 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 498241152 Bytes (567279616)
+2023-04-26 01:45:54,280 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 476473696 Bytes (567279616)
+2023-04-26 01:45:55,022 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-26 01:45:55,022 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-26 01:45:55,025 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-04-26 01:45:55,416 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\license.tmp_save
+2023-04-26 01:45:56,081 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\license.tmp
+2023-04-26 01:45:56,106 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_it.c_save
+2023-04-26 01:45:56,360 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_it.c
+2023-04-26 01:45:56,373 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_it.h_save
+2023-04-26 01:45:56,499 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_it.h
+2023-04-26 01:45:56,619 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-26 01:45:56,859 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_msp.c
+2023-04-26 01:45:56,872 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\system.tmp_save
+2023-04-26 01:45:56,964 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\system.tmp
+2023-04-26 01:45:56,990 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-26 01:45:57,167 [INFO] CodeEngine:327 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-26 01:45:57,316 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\main.h_save
+2023-04-26 01:45:57,513 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\main.h
+2023-04-26 01:45:57,531 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\main.c_save
+2023-04-26 01:45:57,793 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\main.c
+2023-04-26 01:45:58,654 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 219mS.
+2023-04-26 01:45:58,668 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-04-26 01:45:58,984 [INFO] ConfigFileManager:1396 - The Die is : DIE431
+2023-04-26 01:45:59,005 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-04-26 01:45:59,021 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-04-26 01:45:59,031 [INFO] ApiDbMcu:505 - Load IP Config File for LIBJPEG
+2023-04-26 01:45:59,044 [INFO] ApiDbMcu:505 - Load IP Config File for MBEDTLS
+2023-04-26 01:45:59,062 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2023-04-26 01:45:59,074 [INFO] ApiDbMcu:505 - Load IP Config File for USB_HOST
+2023-04-26 01:46:07,591 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 8923mS.
+2023-04-26 01:46:07,593 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-04-26 01:46:07,595 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-04-26 01:46:08,382 [INFO] McuFinderGlobals:65 - Set McuFinderConnectedMode to true
+2023-04-26 01:46:08,386 [INFO] ApiDb:447 - Save user favorites file C:\Users\XPS/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2023-04-26 01:46:08,388 [INFO] ApiDb:451 - User favorites MCUs=[STM32F411RET6]
+2023-04-26 01:52:14,520 [INFO] RtosManager:802 - Current active RTOS is FREERTOS [Cortex-M4NS]
+2023-04-26 01:52:15,184 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 01:52:15,313 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 01:52:37,390 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-04-26 01:52:37,391 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-04-26 01:52:37,391 [WARN] TasksAndQueuesTab:774 - max value is: 3840.0
+2023-04-26 01:52:53,852 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 128
+2023-04-26 01:52:53,852 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 32768
+2023-04-26 01:53:51,680 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-04-26 01:53:51,681 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-04-26 01:53:51,681 [WARN] TasksAndQueuesTab:774 - max value is: 3840.0
+2023-04-26 01:53:51,789 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 01:54:05,576 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-04-26 01:54:05,577 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-04-26 01:54:05,577 [WARN] TasksAndQueuesTab:774 - max value is: 3840.0
+2023-04-26 01:54:08,186 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 128
+2023-04-26 01:54:08,186 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 32768
+2023-04-26 01:54:52,349 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-04-26 01:54:52,350 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-04-26 01:54:52,350 [WARN] TasksAndQueuesTab:774 - max value is: 3840.0
+2023-04-26 01:54:52,350 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-04-26 01:54:52,350 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-04-26 01:54:52,351 [WARN] TasksAndQueuesTab:774 - max value is: 3840.0
+2023-04-26 01:54:53,415 [INFO] EditThreadDialog:703 - RAM SIZE (in KB): 128
+2023-04-26 01:54:53,415 [INFO] EditThreadDialog:705 - RAM SIZE (in words): 32768
+2023-04-26 01:55:23,994 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-04-26 01:55:23,994 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-04-26 01:55:23,994 [WARN] TasksAndQueuesTab:774 - max value is: 3840.0
+2023-04-26 01:55:23,994 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-04-26 01:55:23,994 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-04-26 01:55:23,994 [WARN] TasksAndQueuesTab:774 - max value is: 3840.0
+2023-04-26 01:55:23,995 [INFO] TasksAndQueuesTab:756 - Dynamic
+2023-04-26 01:55:23,995 [WARN] TasksAndQueuesTab:762 - 128 128
+2023-04-26 01:55:23,995 [WARN] TasksAndQueuesTab:774 - max value is: 3840.0
+2023-04-26 01:59:21,482 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 487385016 Bytes (835715072)
+2023-04-26 01:59:25,333 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 505195960 Bytes (835715072)
+2023-04-26 01:59:29,670 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 614789040 Bytes (835715072)
+2023-04-26 02:00:32,910 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 02:01:15,923 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 653120688 Bytes (835715072)
+2023-04-26 02:01:16,015 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 667646720 Bytes (835715072)
+2023-04-26 02:01:16,559 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 692812544 Bytes (835715072)
+2023-04-26 02:01:16,915 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-26 02:01:16,915 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-04-26 02:01:16,915 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-26 02:01:16,915 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-26 02:01:16,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-26 02:01:16,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-26 02:01:16,917 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-04-26 02:01:17,228 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\license.tmp_save
+2023-04-26 02:01:17,394 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\license.tmp
+2023-04-26 02:01:17,458 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\gpio.tmp_save
+2023-04-26 02:01:17,603 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\gpio.tmp
+2023-04-26 02:01:17,782 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-04-26 02:01:17,807 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp_save
+2023-04-26 02:01:17,910 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp
+2023-04-26 02:01:17,923 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp_save
+2023-04-26 02:01:18,018 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp
+2023-04-26 02:01:18,030 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp_save
+2023-04-26 02:01:18,155 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp
+2023-04-26 02:01:18,172 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-04-26 02:01:18,293 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp
+2023-04-26 02:01:18,302 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-04-26 02:01:18,370 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp
+2023-04-26 02:01:18,384 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp_save
+2023-04-26 02:01:18,463 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp
+2023-04-26 02:01:18,473 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp_save
+2023-04-26 02:01:18,544 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp
+2023-04-26 02:01:18,555 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-04-26 02:01:18,565 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp_save
+2023-04-26 02:01:18,646 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp
+2023-04-26 02:01:18,651 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp_save
+2023-04-26 02:01:18,709 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp
+2023-04-26 02:01:18,715 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp_save
+2023-04-26 02:01:18,770 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp
+2023-04-26 02:01:18,781 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-04-26 02:01:18,842 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp
+2023-04-26 02:01:18,849 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-04-26 02:01:18,913 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp
+2023-04-26 02:01:18,919 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp_save
+2023-04-26 02:01:18,978 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp
+2023-04-26 02:01:18,984 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp_save
+2023-04-26 02:01:19,043 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp
+2023-04-26 02:01:19,060 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\FreeRTOSConfig.h_save
+2023-04-26 02:01:19,160 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\FreeRTOSConfig.h
+2023-04-26 02:01:19,179 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\freertos.c_save
+2023-04-26 02:01:19,269 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\freertos.c
+2023-04-26 02:01:19,293 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_it.c_save
+2023-04-26 02:01:19,587 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_it.c
+2023-04-26 02:01:19,597 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_it.h_save
+2023-04-26 02:01:19,717 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_it.h
+2023-04-26 02:01:19,740 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-26 02:01:19,995 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_msp.c
+2023-04-26 02:01:20,001 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\system.tmp_save
+2023-04-26 02:01:20,078 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\system.tmp
+2023-04-26 02:01:20,094 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2023-04-26 02:01:20,183 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_timebase_tim.c
+2023-04-26 02:01:20,202 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-26 02:01:20,308 [INFO] CodeEngine:327 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-26 02:01:20,353 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\main.h_save
+2023-04-26 02:01:20,455 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\main.h
+2023-04-26 02:01:20,472 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\main.c_save
+2023-04-26 02:01:20,607 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\main.c
+2023-04-26 02:01:21,392 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 332mS.
+2023-04-26 02:01:21,399 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-04-26 02:01:21,752 [INFO] ConfigFileManager:1396 - The Die is : DIE431
+2023-04-26 02:01:23,759 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 2360mS.
+2023-04-26 02:01:23,760 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-04-26 02:01:23,765 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-04-26 03:00:05,956 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:00:23,420 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 663501032 Bytes (870318080)
+2023-04-26 03:00:23,518 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 677967256 Bytes (870318080)
+2023-04-26 03:00:24,039 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 706152088 Bytes (870318080)
+2023-04-26 03:00:26,119 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-26 03:00:26,120 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-04-26 03:00:26,120 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-26 03:00:26,120 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-26 03:00:26,122 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-26 03:00:26,122 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-26 03:00:26,122 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-04-26 03:00:26,258 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\license.tmp_save
+2023-04-26 03:00:26,365 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\license.tmp
+2023-04-26 03:00:26,381 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\gpio.tmp_save
+2023-04-26 03:00:26,492 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\gpio.tmp
+2023-04-26 03:00:26,541 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-04-26 03:00:26,547 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp_save
+2023-04-26 03:00:26,628 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp
+2023-04-26 03:00:26,633 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp_save
+2023-04-26 03:00:26,700 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp
+2023-04-26 03:00:26,705 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp_save
+2023-04-26 03:00:26,762 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp
+2023-04-26 03:00:26,766 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-04-26 03:00:26,834 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp
+2023-04-26 03:00:26,837 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-04-26 03:00:26,893 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp
+2023-04-26 03:00:26,896 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp_save
+2023-04-26 03:00:26,951 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp
+2023-04-26 03:00:26,956 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp_save
+2023-04-26 03:00:27,017 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp
+2023-04-26 03:00:27,028 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-04-26 03:00:27,038 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp_save
+2023-04-26 03:00:27,134 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp
+2023-04-26 03:00:27,142 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp_save
+2023-04-26 03:00:27,203 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp
+2023-04-26 03:00:27,209 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp_save
+2023-04-26 03:00:27,284 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp
+2023-04-26 03:00:27,296 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-04-26 03:00:27,370 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp
+2023-04-26 03:00:27,379 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-04-26 03:00:27,442 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp
+2023-04-26 03:00:27,448 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp_save
+2023-04-26 03:00:27,660 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp
+2023-04-26 03:00:27,666 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp_save
+2023-04-26 03:00:27,728 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp
+2023-04-26 03:00:27,748 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\FreeRTOSConfig.h_save
+2023-04-26 03:00:27,854 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\FreeRTOSConfig.h
+2023-04-26 03:00:27,869 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\freertos.c_save
+2023-04-26 03:00:27,936 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\freertos.c
+2023-04-26 03:00:27,957 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_it.c_save
+2023-04-26 03:00:28,127 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_it.c
+2023-04-26 03:00:28,133 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_it.h_save
+2023-04-26 03:00:28,194 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_it.h
+2023-04-26 03:00:28,212 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-26 03:00:28,309 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_msp.c
+2023-04-26 03:00:28,313 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\system.tmp_save
+2023-04-26 03:00:28,368 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\system.tmp
+2023-04-26 03:00:28,380 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2023-04-26 03:00:28,450 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_timebase_tim.c
+2023-04-26 03:00:28,468 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-26 03:00:28,578 [INFO] CodeEngine:327 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-26 03:00:28,639 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\main.h_save
+2023-04-26 03:00:28,740 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\main.h
+2023-04-26 03:00:28,753 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\main.c_save
+2023-04-26 03:00:28,900 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\main.c
+2023-04-26 03:00:29,623 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 240mS.
+2023-04-26 03:00:29,627 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-04-26 03:00:29,978 [INFO] ConfigFileManager:1396 - The Die is : DIE431
+2023-04-26 03:00:32,028 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 2401mS.
+2023-04-26 03:00:32,028 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-04-26 03:00:32,034 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-04-26 03:15:07,716 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:15:45,175 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:15:45,366 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:16:03,320 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:16:21,123 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:16:21,247 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:16:22,792 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:16:22,944 [ERROR] RtosPanel:557 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2023-04-26 03:16:30,214 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 564789592 Bytes (908066816)
+2023-04-26 03:16:30,274 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 579995992 Bytes (908066816)
+2023-04-26 03:16:30,888 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 606929256 Bytes (908066816)
+2023-04-26 03:16:33,847 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-26 03:16:33,848 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-04-26 03:16:33,848 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-26 03:16:33,848 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-26 03:16:33,848 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-26 03:16:33,848 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-26 03:16:33,850 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\
+2023-04-26 03:16:33,981 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\license.tmp_save
+2023-04-26 03:16:34,058 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\license.tmp
+2023-04-26 03:16:34,072 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\gpio.tmp_save
+2023-04-26 03:16:34,167 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\gpio.tmp
+2023-04-26 03:16:34,207 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-04-26 03:16:34,215 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp_save
+2023-04-26 03:16:34,292 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp
+2023-04-26 03:16:34,295 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp_save
+2023-04-26 03:16:34,353 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp
+2023-04-26 03:16:34,358 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp_save
+2023-04-26 03:16:34,452 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp
+2023-04-26 03:16:34,457 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-04-26 03:16:34,528 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp
+2023-04-26 03:16:34,531 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-04-26 03:16:34,585 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp
+2023-04-26 03:16:34,589 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp_save
+2023-04-26 03:16:34,667 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp
+2023-04-26 03:16:34,670 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp_save
+2023-04-26 03:16:34,728 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp
+2023-04-26 03:16:34,739 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-04-26 03:16:34,746 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp_save
+2023-04-26 03:16:34,825 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_inc.tmp
+2023-04-26 03:16:34,833 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp_save
+2023-04-26 03:16:34,896 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_vars.tmp
+2023-04-26 03:16:34,902 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp_save
+2023-04-26 03:16:34,958 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_pfp.tmp
+2023-04-26 03:16:34,970 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp_save
+2023-04-26 03:16:35,034 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_obj_creat.tmp
+2023-04-26 03:16:35,039 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp_save
+2023-04-26 03:16:35,093 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_kernelStart.tmp
+2023-04-26 03:16:35,098 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp_save
+2023-04-26 03:16:35,156 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_default_thread.tmp
+2023-04-26 03:16:35,163 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp_save
+2023-04-26 03:16:35,224 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\rtos_threads.tmp
+2023-04-26 03:16:35,237 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\FreeRTOSConfig.h_save
+2023-04-26 03:16:35,307 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\FreeRTOSConfig.h
+2023-04-26 03:16:35,319 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\freertos.c_save
+2023-04-26 03:16:35,383 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\freertos.c
+2023-04-26 03:16:35,405 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_it.c_save
+2023-04-26 03:16:35,580 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_it.c
+2023-04-26 03:16:35,587 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_it.h_save
+2023-04-26 03:16:35,663 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_it.h
+2023-04-26 03:16:35,683 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-26 03:16:35,810 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_msp.c
+2023-04-26 03:16:35,815 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\system.tmp_save
+2023-04-26 03:16:35,948 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\MXTmpFiles\system.tmp
+2023-04-26 03:16:35,961 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2023-04-26 03:16:36,036 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\stm32f4xx_hal_timebase_tim.c
+2023-04-26 03:16:36,054 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-26 03:16:36,166 [INFO] CodeEngine:327 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-26 03:16:36,207 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\main.h_save
+2023-04-26 03:16:36,315 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Inc\main.h
+2023-04-26 03:16:36,327 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\main.c_save
+2023-04-26 03:16:36,476 [INFO] CodeEngine:271 - Generated code: C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\Core\Src\main.c
+2023-04-26 03:16:37,305 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 248mS.
+2023-04-26 03:16:37,309 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-04-26 03:16:37,669 [INFO] ConfigFileManager:1396 - The Die is : DIE431
+2023-04-26 03:16:39,603 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 2294mS.
+2023-04-26 03:16:39,604 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-04-26 03:16:39,611 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.

@@ -1,0 +1,216 @@
+02:43:15 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartNormalTask':
+../Core/Src/main.c:269:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  269 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:269:49: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c: In function 'StartHighTask':
+../Core/Src/main.c:302:49: warning: incompatible implicit declaration of built-in function 'strlen'
+  302 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:302:49: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c: In function 'StartLowTask':
+../Core/Src/main.c:334:48: warning: incompatible implicit declaration of built-in function 'strlen'
+  334 |   HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                ^~~~~~
+../Core/Src/main.c:334:48: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "RTOS_3_Binary_semaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_3_Binary_semaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTOS_3_Binary_semaphore.elf
+ 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+arm-none-eabi-objdump -h -S  RTOS_3_Binary_semaphore.elf  > "RTOS_3_Binary_semaphore.list"
+   text	   data	    bss	    dec	    hex	filename
+  21104	    124	  18124	  39352	   99b8	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTOS_3_Binary_semaphore.list
+ 
+02:43:19 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21104	    124	  18124	  39352	   99b8	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+02:52:26 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartNormalTask':
+../Core/Src/main.c:269:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  269 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:269:49: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c: In function 'StartHighTask':
+../Core/Src/main.c:302:49: warning: incompatible implicit declaration of built-in function 'strlen'
+  302 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:302:49: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c: In function 'StartLowTask':
+../Core/Src/main.c:334:48: warning: incompatible implicit declaration of built-in function 'strlen'
+  334 |   HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                ^~~~~~
+../Core/Src/main.c:334:48: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "RTOS_3_Binary_semaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_3_Binary_semaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTOS_3_Binary_semaphore.elf
+ 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+arm-none-eabi-objdump -h -S  RTOS_3_Binary_semaphore.elf  > "RTOS_3_Binary_semaphore.list"
+   text	   data	    bss	    dec	    hex	filename
+  21104	    124	  18124	  39352	   99b8	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTOS_3_Binary_semaphore.list
+ 
+02:58:23 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartNormalTask':
+../Core/Src/main.c:269:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  269 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:269:49: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c: In function 'StartHighTask':
+../Core/Src/main.c:302:49: warning: incompatible implicit declaration of built-in function 'strlen'
+  302 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:302:49: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c: In function 'StartLowTask':
+../Core/Src/main.c:333:48: warning: incompatible implicit declaration of built-in function 'strlen'
+  333 |   HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                ^~~~~~
+../Core/Src/main.c:333:48: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "RTOS_3_Binary_semaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_3_Binary_semaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTOS_3_Binary_semaphore.elf
+ 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+arm-none-eabi-objdump -h -S  RTOS_3_Binary_semaphore.elf  > "RTOS_3_Binary_semaphore.list"
+   text	   data	    bss	    dec	    hex	filename
+  21072	    124	  18124	  39320	   9998	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTOS_3_Binary_semaphore.list
+ 
+03:02:52 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/croutine.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/croutine.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/event_groups.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/event_groups.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/list.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/list.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/list.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/list.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/queue.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/queue.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/tasks.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/tasks.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/timers.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/timers.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/timers.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/timers.o"
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartNormalTask':
+../Core/Src/main.c:269:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  269 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:269:49: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c: In function 'StartHighTask':
+../Core/Src/main.c:302:49: warning: incompatible implicit declaration of built-in function 'strlen'
+  302 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:302:49: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c: In function 'StartLowTask':
+../Core/Src/main.c:333:48: warning: incompatible implicit declaration of built-in function 'strlen'
+  333 |   HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                ^~~~~~
+../Core/Src/main.c:333:48: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "RTOS_3_Binary_semaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_3_Binary_semaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTOS_3_Binary_semaphore.elf
+ 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+arm-none-eabi-objdump -h -S  RTOS_3_Binary_semaphore.elf  > "RTOS_3_Binary_semaphore.list"
+   text	   data	    bss	    dec	    hex	filename
+  20504	     24	  18024	  38552	   9698	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTOS_3_Binary_semaphore.list
+ 
+03:17:47 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartNormalTask':
+../Core/Src/main.c:274:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  274 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:274:49: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c: In function 'StartHighTask':
+../Core/Src/main.c:307:49: warning: incompatible implicit declaration of built-in function 'strlen'
+  307 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:307:49: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c: In function 'StartLowTask':
+../Core/Src/main.c:338:48: warning: incompatible implicit declaration of built-in function 'strlen'
+  338 |   HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                ^~~~~~
+../Core/Src/main.c:338:48: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "RTOS_3_Binary_semaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_3_Binary_semaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTOS_3_Binary_semaphore.elf
+ 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+arm-none-eabi-objdump -h -S  RTOS_3_Binary_semaphore.elf  > "RTOS_3_Binary_semaphore.list"
+   text	   data	    bss	    dec	    hex	filename
+  20520	     24	  18024	  38568	   96a8	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTOS_3_Binary_semaphore.list
+ 
+03:20:34 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartNormalTask':
+../Core/Src/main.c:274:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  274 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:274:49: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c: In function 'StartHighTask':
+../Core/Src/main.c:307:49: warning: incompatible implicit declaration of built-in function 'strlen'
+  307 |    HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                 ^~~~~~
+../Core/Src/main.c:307:49: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c: In function 'StartLowTask':
+../Core/Src/main.c:338:48: warning: incompatible implicit declaration of built-in function 'strlen'
+  338 |   HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+      |                                                ^~~~~~
+../Core/Src/main.c:338:48: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "RTOS_3_Binary_semaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\RTOS_3_Binary_semaphore\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_3_Binary_semaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTOS_3_Binary_semaphore.elf
+ 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+arm-none-eabi-objdump -h -S  RTOS_3_Binary_semaphore.elf  > "RTOS_3_Binary_semaphore.list"
+   text	   data	    bss	    dec	    hex	filename
+  20516	     24	  18024	  38564	   96a4	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTOS_3_Binary_semaphore.list
+ 

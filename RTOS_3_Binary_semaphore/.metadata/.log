@@ -1,0 +1,24 @@
+!SESSION 2023-04-26 01:39:47.972 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-26 01:41:00.485
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-26 01:41:00.605
+!MESSAGE Log4j initialized with config file C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_3_Binary_semaphore\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-26 01:41:05.688
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-04-26 01:46:14.058
+!MESSAGE Indexed 'RTOS_3_Binary_semaphore' (19 sources, 81 headers) in 6.53 sec: 4,259 declarations; 17,963 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10052 2023-04-28 18:37:07.094
+!MESSAGE Cannot continue the operation.  There is another install operation in progress.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10052 2023-04-28 18:37:07.095
+!MESSAGE Cannot continue the operation.  There is another install operation in progress.
