@@ -25,20 +25,6 @@
 #include "stdio.h"
 /* USER CODE END Includes */
 
-/* Private typedef -----------------------------------------------------------*/
-/* USER CODE BEGIN PTD */
-
-/* USER CODE END PTD */
-
-/* Private define ------------------------------------------------------------*/
-/* USER CODE BEGIN PD */
-/* USER CODE END PD */
-
-/* Private macro -------------------------------------------------------------*/
-/* USER CODE BEGIN PM */
-
-/* USER CODE END PM */
-
 /* Private variables ---------------------------------------------------------*/
 //Define task handler
 osThreadId defaultTaskHandle;
@@ -67,7 +53,6 @@ int _write(int file, char *ptr, int len)
 		ITM_SendChar((*ptr++));
 	return len;
 }
-
 uint8_t indx = 0;
 /* USER CODE END 0 */
 

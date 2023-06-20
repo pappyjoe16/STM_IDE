@@ -27,23 +27,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  00020010  2**0
                   CONTENTS, READONLY
- 12 .debug_info   00013802  00000000  00000000  00020040  2**0
+ 12 .debug_info   000138e2  00000000  00000000  00020040  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00002bea  00000000  00000000  00033842  2**0
+ 13 .debug_abbrev 00002ba8  00000000  00000000  00033922  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00001150  00000000  00000000  00036430  2**3
+ 14 .debug_aranges 00001158  00000000  00000000  000364d0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_ranges 00001048  00000000  00000000  00037580  2**3
+ 15 .debug_ranges 00001050  00000000  00000000  00037628  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  00017433  00000000  00000000  000385c8  2**0
+ 16 .debug_macro  00018075  00000000  00000000  00038678  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00012ca7  00000000  00000000  0004f9fb  2**0
+ 17 .debug_line   00012f67  00000000  00000000  000506ed  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00095d67  00000000  00000000  000626a2  2**0
+ 18 .debug_str    00096d2f  00000000  00000000  00063654  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  000f8409  2**0
+ 19 .comment      00000050  00000000  00000000  000fa383  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00004858  00000000  00000000  000f845c  2**2
+ 20 .debug_frame  00004878  00000000  00000000  000fa3d4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -396,40 +396,27 @@ void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackTy
  8000524:	20000080 	.word	0x20000080
 
 08000528 <main>:
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
+void StartNormalTask(void const * argument);
+void StartHighTask(void const * argument);
+void StartLowTask(void const * argument);
+
 int main(void)
 {
  8000528:	b5b0      	push	{r4, r5, r7, lr}
  800052a:	b098      	sub	sp, #96	; 0x60
  800052c:	af00      	add	r7, sp, #0
-  /* USER CODE END 1 */
-
   /* MCU Configuration--------------------------------------------------------*/
-
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
  800052e:	f000 fb3d 	bl	8000bac <HAL_Init>
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
   /* Configure the system clock */
   SystemClock_Config();
  8000532:	f000 f859 	bl	80005e8 <SystemClock_Config>
-  /* USER CODE BEGIN SysInit */
-
-  /* USER CODE END SysInit */
-
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
  8000536:	f000 f8e9 	bl	800070c <MX_GPIO_Init>
   MX_USART1_UART_Init();
  800053a:	f000 f8bd 	bl	80006b8 <MX_USART1_UART_Init>
-  /* add mutexes, ... */
-  /* USER CODE END RTOS_MUTEX */
 
   /* Create the semaphores(s) */
   /* definition and creation of BinarySem */
@@ -446,8 +433,6 @@ int main(void)
  8000552:	4603      	mov	r3, r0
  8000554:	4a1d      	ldr	r2, [pc, #116]	; (80005cc <main+0xa4>)
  8000556:	6013      	str	r3, [r2, #0]
-  /* add queues, ... */
-  /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
   /* definition and creation of NormalTask */
@@ -503,17 +488,11 @@ int main(void)
  80005c0:	4603      	mov	r3, r0
  80005c2:	4a08      	ldr	r2, [pc, #32]	; (80005e4 <main+0xbc>)
  80005c4:	6013      	str	r3, [r2, #0]
-  /* USER CODE BEGIN RTOS_THREADS */
-  /* add threads, ... */
-  /* USER CODE END RTOS_THREADS */
 
   /* Start scheduler */
   osKernelStart();
  80005c6:	f002 f8a7 	bl	8002718 <osKernelStart>
 
-  /* We should never get here as control is now taken by the scheduler */
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
   while (1)
  80005ca:	e7fe      	b.n	80005ca <main+0xa2>
  80005cc:	200002d0 	.word	0x200002d0
@@ -525,10 +504,10 @@ int main(void)
  80005e4:	200002cc 	.word	0x200002cc
 
 080005e8 <SystemClock_Config>:
-/**
-  * @brief System Clock Configuration
-  * @retval None
-  */
+  }
+  /* USER CODE END 3 */
+}
+
 void SystemClock_Config(void)
 {
  80005e8:	b580      	push	{r7, lr}
@@ -661,19 +640,12 @@ void SystemClock_Config(void)
  80006b4:	40007000 	.word	0x40007000
 
 080006b8 <MX_USART1_UART_Init>:
-  * @brief USART1 Initialization Function
-  * @param None
-  * @retval None
-  */
+
 static void MX_USART1_UART_Init(void)
 {
  80006b8:	b580      	push	{r7, lr}
  80006ba:	af00      	add	r7, sp, #0
-  /* USER CODE END USART1_Init 0 */
 
-  /* USER CODE BEGIN USART1_Init 1 */
-
-  /* USER CODE END USART1_Init 1 */
   huart1.Instance = USART1;
  80006bc:	4b11      	ldr	r3, [pc, #68]	; (8000704 <MX_USART1_UART_Init+0x4c>)
  80006be:	4a12      	ldr	r2, [pc, #72]	; (8000708 <MX_USART1_UART_Init+0x50>)
@@ -716,10 +688,6 @@ static void MX_USART1_UART_Init(void)
     Error_Handler();
  80006fa:	f000 f90f 	bl	800091c <Error_Handler>
   }
-  /* USER CODE BEGIN USART1_Init 2 */
-
-  /* USER CODE END USART1_Init 2 */
-
 }
  80006fe:	bf00      	nop
  8000700:	bd80      	pop	{r7, pc}
@@ -728,10 +696,7 @@ static void MX_USART1_UART_Init(void)
  8000708:	40011000 	.word	0x40011000
 
 0800070c <MX_GPIO_Init>:
-  * @brief GPIO Initialization Function
-  * @param None
-  * @retval None
-  */
+
 static void MX_GPIO_Init(void)
 {
  800070c:	b580      	push	{r7, lr}
@@ -799,9 +764,7 @@ static void MX_GPIO_Init(void)
  8000780:	40020800 	.word	0x40020800
 
 08000784 <StartNormalTask>:
-  * @param  argument: Not used
-  * @retval None
-  */
+
 /* USER CODE END Header_StartNormalTask */
 void StartNormalTask(void const * argument)
 {
@@ -809,7 +772,6 @@ void StartNormalTask(void const * argument)
  8000786:	b086      	sub	sp, #24
  8000788:	af00      	add	r7, sp, #0
  800078a:	6078      	str	r0, [r7, #4]
-  /* USER CODE BEGIN 5 */
   /* Infinite loop */
   for(;;)
   {
@@ -886,9 +848,9 @@ void StartNormalTask(void const * argument)
  800081c:	08004f3c 	.word	0x08004f3c
 
 08000820 <StartHighTask>:
-* @param argument: Not used
-* @retval None
-*/
+
+  }
+}
 /* USER CODE END Header_StartHighTask */
 void StartHighTask(void const * argument)
 {
@@ -896,7 +858,6 @@ void StartHighTask(void const * argument)
  8000822:	b086      	sub	sp, #24
  8000824:	af00      	add	r7, sp, #0
  8000826:	6078      	str	r0, [r7, #4]
-  /* USER CODE BEGIN StartHighTask */
   /* Infinite loop */
   for(;;)
   {
@@ -965,9 +926,8 @@ void StartHighTask(void const * argument)
  80008a4:	08004fb8 	.word	0x08004fb8
 
 080008a8 <StartLowTask>:
-* @param argument: Not used
-* @retval None
-*/
+  }
+}
 /* USER CODE END Header_StartLowTask */
 void StartLowTask(void const * argument)
 {
@@ -975,14 +935,13 @@ void StartLowTask(void const * argument)
  80008aa:	b084      	sub	sp, #16
  80008ac:	af00      	add	r7, sp, #0
  80008ae:	6078      	str	r0, [r7, #4]
-  /* USER CODE BEGIN StartLowTask */
   /* Infinite loop */
   for(;;)
   {
 		char *str1 = "Enter LowTask\n";
  80008b0:	4b0e      	ldr	r3, [pc, #56]	; (80008ec <StartLowTask+0x44>)
  80008b2:	60fb      	str	r3, [r7, #12]
-		HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen (str1), 100);
+		HAL_UART_Transmit(&huart1, (uint8_t *) str1, strlen(str1), 100);
  80008b4:	68f8      	ldr	r0, [r7, #12]
  80008b6:	f7ff fc93 	bl	80001e0 <strlen>
  80008ba:	4603      	mov	r3, r0
@@ -1050,10 +1009,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
  8000918:	40010000 	.word	0x40010000
 
 0800091c <Error_Handler>:
-/**
-  * @brief  This function is executed in case of error occurrence.
-  * @retval None
-  */
+
 void Error_Handler(void)
 {
  800091c:	b480      	push	{r7}
@@ -1067,7 +1023,6 @@ __STATIC_FORCEINLINE void __disable_irq(void)
  8000920:	b672      	cpsid	i
 }
  8000922:	bf00      	nop
-  /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
   while (1)

@@ -3758,3 +3758,30 @@
 2023-04-25 03:39:45,528 [INFO] WebAppUi:459 - Close the Jxbrowser engine manually
 2023-04-25 03:39:45,550 [INFO] WebAppUi:462 - Profiles folder deleted
 2023-04-25 03:39:45,939 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-06-18 02:04:56,822 [INFO] Activator:179 - 
+
+
+2023-06-18 02:04:56,831 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-18 02:05:25,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-18 02:05:25,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-18 02:05:25,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-18 02:38:55,872 [INFO] Activator:179 - 
+
+
+2023-06-18 02:38:55,872 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-18 02:39:20,382 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-18 02:39:20,382 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-18 02:39:20,382 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-18 02:41:02,582 [INFO] Activator:179 - 
+
+
+2023-06-18 02:41:02,585 [INFO] Activator:180 - !SESSION log4j initialized
+2023-06-18 02:41:31,664 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-18 02:41:31,664 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-18 02:41:31,668 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-06-18 02:42:27,988 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Exception in thread "SWV client thread" java.lang.NullPointerException
+2023-06-18 02:42:27,992 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.debug.swv.core.SWVPlugin.debugTrace(SWVPlugin.java:86)
+2023-06-18 02:42:27,992 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.debug.swv.core.SWVClient.TRACE(SWVClient.java:763)
+2023-06-18 02:42:27,992 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.debug.swv.core.SWVClient.readByte(SWVClient.java:295)
+2023-06-18 02:42:27,992 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.debug.swv.core.SWVClient.getNextByte(SWVClient.java:278)
+2023-06-18 02:42:27,992 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.debug.swv.core.SWVClient.run(SWVClient.java:312)

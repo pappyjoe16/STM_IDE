@@ -1,0 +1,10 @@
+00:00:58 **** Incremental Build of configuration Debug for project Create_freeRTOS_empty ****
+make -j16 all 
+arm-none-eabi-size   Create_freeRTOS_empty.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24048	     24	   8272	  32344	   7e58	Create_freeRTOS_empty.elf
+Finished building: default.size.stdout
+ 
+
+00:00:58 Build Finished. 0 errors, 0 warnings. (took 436ms)
+

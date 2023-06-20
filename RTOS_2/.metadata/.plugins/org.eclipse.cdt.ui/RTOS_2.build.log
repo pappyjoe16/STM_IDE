@@ -1,4 +1,4 @@
-03:33:07 **** Incremental Build of configuration Debug for project RTOS_2 ****
+11:51:01 **** Incremental Build of configuration Debug for project RTOS_2 ****
 make -j16 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "RTOS_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\XPS\Documents\My_lessons\STM32_Lesson\STM_IDE\RTOS_2\RTOS_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTOS_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -13,5 +13,5 @@ Finished building: default.size.stdout
 Finished building: RTOS_2.list
  
 
-03:33:08 Build Finished. 0 errors, 0 warnings. (took 736ms)
+11:51:01 Build Finished. 0 errors, 0 warnings. (took 665ms)
 
