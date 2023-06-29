@@ -4433,3 +4433,30 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2023-06-21 00:01:06.969
 !MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2023-06-21 22:52:16.738
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 22:59:53.376
+!MESSAGE Indexed 'Assign_Priority_onRun_Time' (35 sources, 137 headers) in 4.16 sec: 14,034 declarations; 78,490 references; 2 unresolved inclusions; 43 syntax errors; 147 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-22 00:08:49.543
+!MESSAGE Indexed 'Get_Task_Priority' (35 sources, 137 headers) in 1.95 sec: 14,042 declarations; 78,444 references; 2 unresolved inclusions; 43 syntax errors; 147 unresolved names (0.16%)
+!SESSION 2023-06-26 23:45:35.943 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\XPS\Documents\My_lessons\STM32_Lesson
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-26 23:45:39.057
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-06-26 23:45:45.613
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-06-26 23:45:45.781
+!MESSAGE Log4j initialized with config file C:\Users\XPS\Documents\My_lessons\STM32_Lesson\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-26 23:46:00.331
+!MESSAGE Started RMI Server, listening on port 41337

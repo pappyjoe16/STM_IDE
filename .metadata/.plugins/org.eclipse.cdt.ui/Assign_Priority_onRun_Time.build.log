@@ -1,0 +1,10 @@
+23:56:29 **** Incremental Build of configuration Debug for project Assign_Priority_onRun_Time ****
+make -j16 all 
+arm-none-eabi-size   Assign_Priority_onRun_Time.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24464	     24	   8288	  32776	   8008	Assign_Priority_onRun_Time.elf
+Finished building: default.size.stdout
+ 
+
+23:56:29 Build Finished. 0 errors, 0 warnings. (took 299ms)
+

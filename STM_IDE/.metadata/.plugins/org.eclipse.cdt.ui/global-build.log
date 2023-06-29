@@ -1,0 +1,21 @@
+01:40:46 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20516	     24	  18024	  38564	   96a4	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+01:40:59 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20516	     24	  18024	  38564	   96a4	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+01:47:32 **** Incremental Build of configuration Debug for project RTOS_3_Binary_semaphore ****
+make -j16 all 
+arm-none-eabi-size   RTOS_3_Binary_semaphore.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20516	     24	  18024	  38564	   96a4	RTOS_3_Binary_semaphore.elf
+Finished building: default.size.stdout
+ 
